@@ -1,7 +1,7 @@
 from .base import *
 
 DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = []
 
 INSTALLED_APPS += [
     'debug_toolbar'
@@ -39,13 +39,13 @@ DEBUG_TOOLBAR_CONFIG = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'aswsgmjq',
-        'USER': 'aswsgmjq',
-        'PASSWORD': 'KEWSiyIs5HaeLktZyH_6OgsKO-jGpEWf',
-        'HOST': 'balarama.db.elephantsql.com',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
         'PORT': '5432'
     }
 }
 
-STRIPE_PUBLIC_KEY = 'pk_test_ntynViIH7qcpnBFDZBmmGQoG00k6mmWSQX'
-STRIPE_SECRET_KEY = 'sk_test_j5wL6yfsW7Qa5NUwdWpSMJzR00wl5zOiw2'
+STRIPE_PUBLIC_KEY = ''
+STRIPE_SECRET_KEY = ''
